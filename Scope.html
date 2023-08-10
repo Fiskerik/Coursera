@@ -1,0 +1,26 @@
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>DOM Challenges</title>
+	
+</head>
+
+<body>
+	<h1> Test of scope </h1>
+    <script>
+        var avariable = "Hi, this is a GLOBAL variable";
+
+        (function(){
+            var avariable = "Hi, this is a local variable";
+            console.log(avariable);
+        }());
+        
+
+
+
+
+    </script>
+</body>
+</html>
